@@ -1,0 +1,178 @@
+body{
+	color: #000; font-family: 'Noto Sans', sans-serif; background-color: #fff;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#wrapper #home{
+	width: 700px;
+	padding-top: 200px;
+	margin: 0 auto;
+}
+
+#wrapper #home .logo{
+	background-color: #fff;
+	padding: 10px;
+	width: 520px;
+	margin: 0 auto;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#wrapper #home .search-box{
+	width: 100%;
+	height: 36px;
+	padding: 5px;
+}
+
+#wrapper .search-box .search-button{
+	width: 54px;
+	height: 54px;
+	border: none;
+	background: transparent url('../images/search-button.png') no-repeat;
+	text-indent:-9999px; 
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -1px;
+}
+
+#wrapper  .search-box .textbox{
+	height: 30px;
+	font-size: 15pt;
+	padding: 2px;
+	color: #333;
+	width: 635px;
+	border: 1px solid #ccc;
+	margin-right: 2px;
+	float: left;
+}
+
+#wrapper .search-box .textbox:focus{
+	border: 1px solid #29ABE2;
+}
+
+#wrapper .more-links{
+	text-align: left;
+	margin: 10px 5px;
+}
+
+#wrapper .more-links ul li{
+	display: inline;
+	margin-right: 200px;
+}
+
+#wrapper  .more-links ul li.last{
+	margin-right: 0;
+}
+
+#wrapper  .more-links ul li a{
+	font-size: 10pt;
+	color: #333;
+	text-decoration: none;
+}
+
+#wrapper .more-links ul li a:hover{
+	text-decoration: underline;
+}
+
+/*** result page **/
+
+#wrapper #result{
+	padding-bottom: 20px;
+}
+
+#wrapper #result .header{
+	padding: 15px 10px 10px 10px;
+	background-color: #EDF5FA;
+}
+
+
+#wrapper #result .logo{
+	float: left;
+	width: 150px;
+	margin-right: 10px;
+}	
+
+#wrapper #result .logo img{
+	width: 100%;
+}
+
+#wrapper #result .content{
+	padding: 10px 0;
+}
+
+#wrapper #result .box{
+	width: 600px;
+	height: 98px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	color: #333;
+}
+
+#wrapper #result .box .box-left{
+	width: 98px;
+	height: 100%;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+#wrapper #result .box .box-left img{
+	width: 100%;
+}
+
+#wrapper #result .box .box-right{
+	width: 490px;
+	height: 100%;
+	float: right;
+}
+
+#wrapper #result .box .box-right h1{
+	font-weight: bold;
+	color: RED;
+	font-size: 14pt;
+	margin-bottom: 5px;
+}
+
+#wrapper #result .box .box-right h2{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#wrapper #result .box .box-right p{
+	font-size: 10pt;
+}
+
+
+
+#wrapper #result .page{
+	padding: 10px 0;
+	text-align: left;
+}
+
+#wrapper #result .page b, #wrapper #result .page a{
+	margin-right: 10px;
+	color: #333;
+	font-size: 10pt;
+}
+
+#wrapper #result .page b{
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+
+#wrapper #result .more-links{
+	border-top: 1px solid #ccc;
+	text-align: right !important;
+}
+
+#wrapper #result .more-links ul li{
+	margin-right: 0;
+	margin-left: 20px;
+}
