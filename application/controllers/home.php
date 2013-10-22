@@ -1,4 +1,4 @@
-<?php
+<?php // Test commit by harold
 class Home extends FrontController{
 	public function __construct(){
 		// load model class that is needed for this controller
