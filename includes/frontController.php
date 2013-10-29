@@ -51,6 +51,7 @@ class FrontController{
 			echo 'unable to load the template file';
 			exit;
 		}
+		extract( $data );
 		include_once( THEMESFOLDER . TEMPLATEFILE . EXT );
 	}
 	
