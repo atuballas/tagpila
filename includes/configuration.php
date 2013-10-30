@@ -1,6 +1,6 @@
 <?php
 define( 'BASEURL', 'http://localhost/' );
-define( 'APPDIR', '' );
+define( 'APPDIR', 'tagpila_new' );
 
 define( 'APPFOLDER', 'application/' );
 define( 'CONTROLLERSFOLDER', 'application/controllers/' );
